@@ -138,14 +138,15 @@ header nav ul li a:hover{
 
 .tags{
     display: flex;
+    flex-wrap: wrap;
     justify-content: start;
     align-items: center;
     margin-bottom: 30px;
 }
 .tags span{
     font-size: 18px;
+    width: max-content;
     font-weight: 400;
-    /* line-height: 1.5; */
     border: 1px solid #b5b4b4;
     margin: 5px;
     padding: 5px 10px;
