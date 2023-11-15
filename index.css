@@ -1,0 +1,161 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+header nav{
+    width: max-content;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav ul li{
+    list-style: none;
+    padding: auto;
+    margin: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #212529;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover{
+    color: #007bff;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.container h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.container h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.resourse{
+    display: flex;
+    /* justify-content: first baseline; */
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.resourse p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.resourse .box {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    /* You can adjust the color as needed */
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #b5b4b4;
+    /* You can adjust the border color as needed */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box img {
+    max-width: 20px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    /* Center the image within the box */
+}
+
+.resourse .box:hover {
+    border-color: #007bff;
+}
+
+.tags{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.tags span{
+    font-size: 18px;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    border: 1px solid #b5b4b4;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
